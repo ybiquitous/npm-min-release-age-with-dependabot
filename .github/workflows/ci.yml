@@ -31,10 +31,10 @@ jobs:
         run: npm ci
 
       - name: Show outdated dependencies
-        run: npm outdated
+        run: npm outdated || true
 
       - name: Show outdated dependencies with shorter min-release-age
-        run: npm outdated --min-release-age=7
+        run: npm outdated --min-release-age=7 || true
 
       - name: Update 'which' package
         run: |
