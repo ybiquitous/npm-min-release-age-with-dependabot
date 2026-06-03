@@ -30,6 +30,12 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Show outdated dependencies
+        run: npm outdated
+
+      - name: Show outdated dependencies with shorter min-release-age
+        run: npm outdated --min-release-age=7
+
       - name: Update 'which' package
         run: |
           npm install 'which@latest'
