@@ -22,3 +22,5 @@ updater | 2026/06/03 10:11:29 INFO <job_1395035059> No update needed for which 6
 Ref: <https://github.com/ybiquitous/npm-min-release-age-with-dependabot/actions/runs/26878093411/job/79270693139#step:3:165>
 
 Dependabot found `which-7.0.0` but gave up updating due to `Filtered out 1 versions due to cooldown`.
+
+See also [dependabot/dependabot-core#15132](https://github.com/dependabot/dependabot-core/pull/15132).
