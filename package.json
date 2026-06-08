@@ -2,6 +2,6 @@
   "name": "npm-min-release-age-with-dependabot",
   "private": true,
   "dependencies": {
-    "which": "^6.0.1"
+    "which": "^7.0.0"
   }
 }
